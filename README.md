@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/akelvin49/authen)
-[<img src = "https://img.shields.io/badge/akelvinlima-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white">](https://www.instagram.com/akelvinlima/){:target="\_blank"}
-[<img src="https://img.shields.io/badge/Kelvin_Lima-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kelvin-lima-89074a1ab/){:target="\_blank"}
+[<img src = "https://img.shields.io/badge/akelvinlima-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white">](https://www.instagram.com/akelvinlima/)
+[<img src="https://img.shields.io/badge/Kelvin_Lima-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kelvin-lima-89074a1ab/)
 [![Source Code](http://img.shields.io/badge/source-akelvin49/authen-blue.svg?style=flat-square)](https://github.com/akelvin49/authen)
 ![GitHub language count](https://img.shields.io/github/languages/count/akelvin49/authen)
 ![GitHub top language](https://img.shields.io/github/languages/top/akelvin49/authen)
@@ -9,9 +9,9 @@
 
 ## :pushpin: Sobre
 
-### O AUTHEN constitui-se como um componente de autenticação em PHP, proporcionando uma ágil inicialização para projetos futuros. Baseado no projeto authphp desenvolvido em [Código Aberto do Robson .V Leite](https://www.youtube.com/playlist?list=PLi_gvjv-JgXpyYOJA-8TDQ0BLLugiX4jO){:target="\_blank"}.
+### O AUTHEN constitui-se como um componente de autenticação em PHP, proporcionando uma ágil inicialização para projetos futuros. Baseado no projeto authphp desenvolvido em [Código Aberto do Robson .V Leite](https://www.youtube.com/playlist?list=PLi_gvjv-JgXpyYOJA-8TDQ0BLLugiX4jO).
 
-## :php: Recursos Inclusos
+## :mag_right: Recursos Inclusos
 
 - Rotas - componente [Router - Coffecode](https://packagist.org/packages/coffeecode/router#1.0.8)
 - Camada de dados - componente [Datalayer - Coffecode](https://packagist.org/packages/coffeecode/datalayer)
@@ -23,7 +23,7 @@
 
 ---
 
-## :technologist: Requisitos
+## :computer: Requisitos
 
 - PHP>=7.4
 - JQUERY
@@ -33,7 +33,7 @@
 
 ---
 
-## **Instalação**
+## :hammer: **Instalação**
 
 Efetue o clone do repositório
 
@@ -56,7 +56,7 @@ Verifique o diretório vendor:
 
 - Após a instalação, um diretório chamado 'vendor' será criado dentro do diretório 'source/' no seu projeto. Ele contém todas as dependências instaladas.
 
-## **configurações básicas**
+## :pencil2: **configurações básicas**
 
 Como o authen é um componente de login, se faz necessário a instalação de um banco de dados.
 No diretório 'source/' contém um banco de dados de usuário básico, 'authen.sql'. Lembre-se de importá-lo.
@@ -65,4 +65,3 @@ Após isto, crie um arquivo 'env.ini' tendo o 'env.sample.ini' como base e confi
 
 Uma configuração basica também se faz necessária em config.php.
 Em ambos os arquivos á exemplos das configurações
-

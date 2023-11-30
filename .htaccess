@@ -1,0 +1,18 @@
+RewriteEngine On
+#Options All -Indexes
+
+# ROUTER WWW Redirect.
+# - Descomentar essas duas linhas abaixo quando colocar na nuvem
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+## ROUTER HTTPS Redirect
+# - Descomentar essas tres linhas abaixo quando colocar na nuvem
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ROUTER URL Rewrite
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=/$1 [L,QSA]

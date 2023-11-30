@@ -56,7 +56,7 @@ Verifique o diretório vendor:
 
 - Após a instalação, um diretório chamado 'vendor' será criado dentro do diretório 'source/' no seu projeto. Ele contém todas as dependências instaladas.
 
-## :pencil2: **configurações básicas**
+## :pencil2: **Configurações Básicas**
 
 Como o authen é um componente de login, se faz necessário a instalação de um banco de dados.
 No diretório 'source/' contém um banco de dados de usuário básico, 'authen.sql'. Lembre-se de importá-lo.
